@@ -1,0 +1,12 @@
+aec2005a346db4e52e4ca4c755fafb20  opt/myApp/bin/myApp
+91102e7ea73bbcecc68fc590fb8a5e01  opt/myApp/lib/myApp/plugins/libstardict.so
+c43ecd3f1a2eaf947a7cdacb0d7e3013  opt/myApp/qml/DictWebView.qml
+30cde61a4dca0d2498bc8e840d7d11c8  opt/myApp/qml/DictionaryStar.qml
+da41e07ca9a4a1d9251d90c98eb02000  opt/myApp/qml/Settings.qml
+aff901614dbda60a926c74e827e25ea4  opt/myApp/qml/item.qml
+bd843d9dd48e0b29d543fe41c5f88ae8  opt/myApp/qml/main.qml
+55211d8af771d8ef0c3fa30272fa73ab  opt/myApp/qml/reviewpage.qml
+e0779e914983a28db979f3e6e03608fa  opt/myApp/qml/table.qml
+fd8485164a71a87485260385c59b513b  opt/myApp/qml/wordbook.qml
+f30813d16bdba844d2efb36549ac17b1  usr/share/applications/DictionaryStar.desktop
+ea573abf02d1a2124dffc2f2f7e3e632  usr/share/themes/base/meegotouch/icons/DictionaryStar.svg

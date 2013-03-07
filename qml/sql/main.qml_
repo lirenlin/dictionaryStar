@@ -1,0 +1,59 @@
+
+// import QtQuick 1.0 // to target S60 5th Edition or Maemo 5
+import QtQuick 1.1
+import com.nokia.meego 1.1
+import com.nokia.extras 1.1
+
+PageStackWindow {
+    id: rootWindow
+    property variant main: mainPage
+
+
+    initialPage: Page {
+        id: mainPage
+        anchors.centerIn: parent
+
+        Component {
+            id: wordDelegate
+            Rectangle {
+                id: wordCard
+                height: 80
+                width: parent.width
+
+                Text {
+                    id: wordLabel
+                    width: parent.width
+                    text: name
+                    font.bold: true; font.pointSize: 16
+                    horizontalAlignment: Text.AlignLeft
+                }
+                Text {
+                    id: detailLabel
+                    width: parent.width
+                    text: mean
+                    font.bold: true; font.pointSize: 16
+                    horizontalAlignment: Text.AlignLeft
+                    visible: false
+                }
+            }
+        }
+
+        ListView {
+            id: listView
+            anchors.fill: parent
+
+            spacing: 2
+            model: listModel
+            delegate: wordDelegate
+            preferredHighlightBegin: 0; preferredHighlightEnd: 0
+            highlightRangeMode: ListView.StrictlyEnforceRange
+            orientation: ListView.Vertical
+            snapMode: ListView.SnapToItem;
+            flickDeceleration: 2000
+
+        }
+
+        //Component.onCompleted: Global.list = list
+
+    }
+}

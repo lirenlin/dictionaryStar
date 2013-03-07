@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/configure.png</file>
+        <file>images/download.png</file>
+        <file>images/trash.png</file>
+        <file>images/predictive-text.png</file>
+        <file>images/icon-next.png</file>
+        <file>images/icon-previous.png</file>
+        <file>translations/DictionaryStar-en.qm</file>
+        <file>translations/DictionaryStar-fi.qm</file>
+        <file>translations/DictionaryStar-tr.qm</file>
+        <file>translations/DictionaryStar-vi.qm</file>
+        <file>translations/DictionaryStar-zh_CN.qm</file>
+        <file>translations/DictionaryStar-zh_TW.qm</file>
+        <file>translations/DictionaryStar-fr.qm</file>
+        <file>translations/DictionaryStar-de.qm</file>
+        <file>translations/DictionaryStar-es.qm</file>
+        <file>translations/DictionaryStar-pt.qm</file>
+        <file>translations/DictionaryStar-sv.qm</file>
+    </qresource>
+</RCC>

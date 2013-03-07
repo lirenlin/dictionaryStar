@@ -1,0 +1,142 @@
+Source: dictionarystar
+Section: user/office
+Priority: optional
+Maintainer: Jari P.T. Alhonen <jaript@gmail.com>
+Build-Depends: debhelper (>= 5), libqt4-dev, libglib2.0-dev, zlib1g-dev, libarchive-dev, applauncherd-dev
+Standards-Version: 3.7.3
+Homepage: https://gitorious.org/dictionarystar
+
+Package: dictionarystar
+Architecture: any
+Depends: libqt4-declarative (>= 4.7.1), libqt4-network (>= 4.7.1), libqtcore4 (>= 4.7.1), libqtgui4 (>= 4.7.1), libarchive1, libc6, libgcc1, libglib2.0-0, libqtwebkit4, libstdc++6, zlib1g
+Description: International dictionary supporting the StarDict format.
+ DictionaryStar is an international dictionary supporting the StarDict
+ dictionary files. This package comes without any dictionary files, but
+ includes functionality to download dictionaries from websites. Most
+ dictionaries are free of charge.
+XB-Description-fi: Kansainvälinen StarDict-sanakirjaohjelma.
+ DictionaryStar on ohjelma, jolla voi lukea StarDict-muotoisia sanakirjoja.
+ Näitä sanakirjatiedostoja ei tule paketin mukana, mutta ohjelman avulla
+ niitä voi ladata helposti netistä. Sanakirjoja löytyy lähes kaikille
+ kielille ja ne ovat yleensä ilmaisia.
+XB-Description-tr: StarSözlük uygulaması uluslarası StarDict sözlüğü destekler.
+ Uygulama herhangi bir sözlük ile gelmez fakat internetten istediğiniz çeşit
+ sözlüğü indirip bu uygulamayla birlikte sürekli yanınızda taşıyabilirsiniz.
+XB-Description-vi: Từ điển quốc tế hỗ trợ định dạng StarDict.
+ DictionaryStar là chương trình hiển thị dùng để hỗ trợ các tập tin từ điển
+ có định dạng StarDict. Chương trình này không chứa tập tin từ điển nhưng
+ có chức năng tải và cài đặt từ điển một cách dễ dàng. Các từ điển StarDict
+ có sẵn cho đa số các ngôn ngữ và nhóm chuyên ngành, và thường miễn phí.
+XB-Description-zh_CN: 国际字典支持星际译王格式。
+ 星际译王字典是一个国际性的字典，支持星际译王的字典文件。这个包没有任何字典文件，但包括功能
+ 从网站上下载字典。大多数字典都是免费的。
+XB-Description-zh_TW: 國際字典支持星際譯王格式。
+ 星際譯王字典是一個國際性的字典，支持星際譯王的字典文件。這個包沒有任何字典文件，但包括功能
+ 從網站上下載字典。大多數字典都是免費的。
+XB-Description-fr: Dictionnaire international supportant le format StarDict.
+ DictionaryStar est un dictionnaire international soutenant les fichiers de
+ dictionnaire StarDict. Ce package est livré sans les fichiers de dictionnaire,
+ mais inclut fonctionnalité pour télécharger les dictionnaires de sites
+ Web. La plupart des dictionnaires sont gratuits.
+XB-Description-de: Internationales Wörterbuch unterstützt die StarDict Format.
+ DictionaryStar ist ein Betrachter für Wörterbücher im StarDict-Dateiformat.
+ Das Programm selbst enthält keine  Wörterbücher, bietet aber die Möglichkeit
+ diese einfach herunterzuladen und automatisch zu installieren.
+ StarDict-Wörterbücher sind für die meisten Sprachen und Fachbereiche verfügbar;
+ im allgemeinen kostenlos.
+XB-Description-sv: Internationell ordbok som stöder StarDict format.
+ DictionaryStar är en internationell ordbok som stöder StarDict ordbok filerna.
+ Detta paket levereras utan ordbok filer, men inkluderar funktionaliteten för
+ att ladda ner ordböcker från webbplatser. De flesta ordböcker är gratis.
+XB-Description-es: Diccionario Internacional apoyando el formato StarDict.
+ DictionaryStar es un diccionario internacional que apoya los archivos de
+ diccionario StarDict. Este paquete incluye ningún archivo de diccionario, pero
+ incluye la funcionalidad de descargar diccionarios desde sitios web. La
+ mayoría de los diccionarios son gratuitos.
+XB-Description-pt: Internacional Dicionário suportando o formato StarDict.
+ DictionaryStar é um dicionário internacional que suporta arquivos de dicionário
+ StarDict. Este pacote inclui nenhum arquivo de dicionário, mas inclui a
+ possibilidade de baixar dicionários de sites. A maioria dos dicionários são
+ livres.
+XSBC-Maemo-Display-Name: DictionaryStar
+XSBC-Maemo-Display-Name-tr: StarSözlük
+XSBC-Maemo-Display-Name-zh_CN: 星际译王字典
+XSBC-Maemo-Display-Name-zh_TW: 星際譯王字典
+XB-Maemo-Icon-26:
+ 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
